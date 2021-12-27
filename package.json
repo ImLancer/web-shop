@@ -3,6 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@hookform/resolvers": "^2.5.2",
+    "@material-ui/core": "^4.11.4",
+    "@material-ui/icons": "^4.11.2",
+    "@material-ui/lab": "^4.0.0-alpha.58",
     "@reduxjs/toolkit": "^1.5.1",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
@@ -12,11 +16,18 @@
     "@types/react": "^16.14.8",
     "@types/react-dom": "^16.9.13",
     "@types/react-redux": "^7.1.16",
+    "clsx": "^1.1.1",
+    "firebase": "^8.6.5",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-hook-form": "^7.8.1",
+    "react-icons": "^4.2.0",
     "react-redux": "^7.2.4",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
-    "typescript": "^4.1.5"
+    "react-spinners": "^0.11.0",
+    "redux": "^4.1.0",
+    "yup": "^0.32.9"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -38,5 +49,13 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.",
+  "main": "index.js",
+  "devDependencies": {
+    "@types/react-router-dom": "^5.1.7",
+    "typescript": "^4.3.2"
+  },
+  "author": "",
+  "license": "ISC"
 }
