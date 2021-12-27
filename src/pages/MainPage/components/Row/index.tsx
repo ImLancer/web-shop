@@ -46,7 +46,7 @@ const Row: React.FC<Props> = ({ amount, listProduct }) => {
 			);
 		}
 	} else {
-		for (let i = 0; i < amount; i++) {
+		for (let i = 0; i < amount-1; i++) {
 			// note: we add a key prop here to allow react to uniquely identify each
 			// element in this array. see: https://reactjs.org/docs/lists-and-keys.html
 			rows.push(
